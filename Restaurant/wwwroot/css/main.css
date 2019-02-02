@@ -35,7 +35,11 @@
     color: #7386D5;
     background: #fff;
 }
-#content{
-    position:relative;
-    width: 100%;
+#myCarousel
+{
+    padding-left:100px;
+    max-width:1343px;
+}
+#block-2{
+    padding-left:200px;
 }
