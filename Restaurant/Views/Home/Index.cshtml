@@ -32,47 +32,92 @@
     <!--div content-->
     <div id="content">
 
+        @*<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="img-responsive" src="~/images/banner1.svg" alt="First slide">
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Inside a Beautiful Restaurant
+                                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-responsive" src="~/images/banner2.svg" alt="Second slide">
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Enjoy glamorous dining
+                                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-responsive" src="~/images/banner3.svg" alt="Third slide">
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Enjoy delicious food.
+                                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>*@
+
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+            <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item">
-                    <img src="~/images/InsideA.jpg" alt="Inside the Restaurant" class="img-responsive" />
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/images/InsideAb.jpg" alt="Slide 1" />
                     <div class="carousel-caption" role="option">
-                        <p>
-                            Inside a Beautiful Restaurant
-                            <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                                Learn More
-                            </a>
-                        </p>
+                        <h1>Slide 1</h1>
+                        <p>Slide 1 Description</p>
                     </div>
                 </div>
+
                 <div class="item">
-                    <img src="~/images/InsideB.jpg" alt="Second View of Restuarant" class="img-responsive" />
+                    <img src="~/images/InsideBb.jpg" alt="Slide 2" />
                     <div class="carousel-caption" role="option">
-                        <p>
-                            Enjoy glamorous dining
-                            <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                                Learn More
-                            </a>
-                        </p>
+                        <h1>Slide 2</h1>
+                        <p>Slide to Description</p>
                     </div>
                 </div>
+
                 <div class="item">
-                    <img src="~/images/foodb.jpeg" alt="Chinese food" class="img-responsive" />
+                    <img src="~/images/foodbb.jpeg" alt="Slide 3" />
                     <div class="carousel-caption" role="option">
-                        <p>
-                            Enjoy delicious food.
-                            <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                                Learn More
-                            </a>
-                        </p>
+                        <h1>Slide 3</h1>
+                        <p>Slide 3 Description</p>
                     </div>
                 </div>
             </div>
+            <!-- Controls -->
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -81,7 +126,9 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+
         </div>
+
         <div id="block-2">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
